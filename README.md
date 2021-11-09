@@ -1,6 +1,4 @@
-A simple bash script that will install an docker container and run juputer-notebook.  
-
-This docker container use alpine-linux as the base-distro this provides a ready-to-run Jupyter Notebook application with NumPy, Matplotlib and OpenCV packages installed
+A simple bash script that will install a docker container and run jupyter-notebook. This docker container use alpine-linux as the base-distro and provides a ready-to-run Jupyter Notebook application with NumPy, Matplotlib and OpenCV packages installed.
 
 Install docker first, refer on this to install on your machine:
 
@@ -8,7 +6,7 @@ Install docker first, refer on this to install on your machine:
 
 **NOTE**: Use commands ``` systemctl start docker ``` or ``` service docker start ``` if the script won't run or docker won't start.
 
-give root priveleges to the script: ```sudo chmod +x install.sh``` then ```./install.sh```
+give root priveleges to the script: ```sudo chmod +x install.sh``` then ```sudo ./install.sh```
 
 If the installation was successful, go to your browser type ```localhost:8888```
 
