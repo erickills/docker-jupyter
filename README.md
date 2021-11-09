@@ -4,7 +4,7 @@ Install docker first, refer on this to install on your machine:
 
 > https://docs.docker.com/get-docker/
 
-**NOTE**: Use commands ``` systemctl start docker ``` or ``` service docker start ``` if the script won't run or docker won't start.
+**NOTE**: Use commands ``` sudo systemctl start docker ``` or ```sudo service docker start ``` if the script won't run or docker won't start.
 
 give root priveleges to the script: ```sudo chmod +x install.sh``` then ```sudo ./install.sh```
 
