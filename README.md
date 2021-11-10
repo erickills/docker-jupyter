@@ -1,4 +1,6 @@
 # docker-jupyter
+![LICENSE](https://img.shields.io/github/license/erickills/docker-jupyter?style=for-the-badge)
+![SIZE](https://img.shields.io/github/repo-size/erickills/docker-jupyter?style=for-the-badge)
 
 A simple bash script that will install a docker container and run jupyter-notebook. This docker container use alpine-linux as the base-distro and provides a ready-to-run Jupyter Notebook application with NumPy, Matplotlib and OpenCV packages installed. Jupyter notebook server run as root all authentication was disabled. 
 
