@@ -10,13 +10,13 @@ A simple bash script that will install a docker container and run jupyter-notebo
 
 3. ``` cd ``` to docker-jupyter 
 
-4. give root priveleges to the script using: ```sudo chmod +x install.sh``` then ```sudo ./install.sh``` to install and run the container automatically.
+4. give root priveleges to the script using: ``` sudo chmod +x install.sh ``` then ``` sudo ./install.sh ``` to install and run the container automatically.
 
-You can verify if the container is running by using command: ```sudo docker ps```
+You can verify if the container is running by using command: ``` sudo docker ps ``` or ``` sudo docker ps -a ```
 
 
-If the installation was successful, go to your browser type ```localhost:8888```
+If the installation was successful, go to your browser type ``` localhost:8888 ```
 
-If you can't ```ssh``` to the container using command: ```sudo docker exec -it [dockername] /bin/bash```, you can go to ```localhost:8888``` again and click new terminal. this will provide a terminal running on your browser, you can add some packages or modules if you need to.
+If you can't ``` ssh ``` to the container using command: ``` sudo docker exec -it [dockername] /bin/bash ```, you can go to ``` localhost:8888 ``` again and click new terminal. this will provide a terminal running on your browser, you can add some packages or modules if you need to.
 
 
