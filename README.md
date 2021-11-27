@@ -20,6 +20,6 @@ You can verify if the container is running by using command: ``` sudo docker ps 
 
 If the installation was successful, go to your browser type ``` localhost:8888 ```
 
-If you can't ``` ssh ``` to the container using command: ``` sudo docker exec -it [dockername] /bin/bash ```, you can go to ``` localhost:8888 ``` again and click new terminal. this will provide a terminal running on your browser, you can add some packages or modules if you need to.
+If you can't ``` ssh ``` to the container using command: ``` sudo docker exec -it [dockername] /bin/sh ```, you can go to ``` localhost:8888 ``` again and click new terminal. this will provide a terminal running on your browser, you can add some packages or modules if you need to.
 
 
